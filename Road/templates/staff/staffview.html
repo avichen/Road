@@ -1,0 +1,229 @@
+{% extends "../base.html" %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% block body %}
+			<div class="main-content">
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="icon-home home-icon"></i>
+							<a href="#">Home</a>
+
+							<span class="divider">
+								<i class="icon-angle-right arrow-icon"></i>
+							</span>
+						</li>
+						<li>Management
+							<span class="divider">
+								<i class="icon-angle-right arrow-icon"></i>
+							</span>
+						</li>
+						<li class="active">Staff Management</li>
+					</ul><!--.breadcrumb-->
+				</div>
+				
+				<!-- main begin -->
+				<div class="page-content">
+					<div class="page-header position-relative">
+						<div class=" inline no-margin">
+							<h1>
+								<b>Staff Add</b>
+							</h1>
+						</div>
+						
+						<div data-toggle="buttons-radio" class="pull-right btn-group no-margin">
+							<button onclick="javascript:window.location.href='userlist.html'" class="btn btn-default btn-middle">
+								<i class="icon-hand-left bigger-110"></i>
+								Staff List
+							</button>
+						</div>
+					</div><!--/.page-header-->
+				
+					<div class="row-fluid">
+						<div class="offset1 span10">
+						<!--PAGE CONTENT BEGINS-->
+							<form class="form-horizontal" action="javascript:window.location.href='userlist.html'">
+								<div class="control-group">
+									<label class="control-label" for="form-username">Name:</label>
+
+									<div class="controls">
+										<input type="text" id="form-username" class="input-small" style="font-weight:bolder; color:#000000"/>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-age">Age:</label>
+
+									<div class="controls">
+										<input type="text" id="form-age" class="span1" />
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-marriage">Marriage:</label>
+
+									<div class="controls">
+										<select id="form-marriage" class="span2">
+											<option value="M">Married</option>
+											<option value="U">Unmarried</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-email">Email:</label>
+
+									<div class="controls">
+										<input type="text" id="form-email" placeholder="abc@126.com" />
+										<span class="add-on">
+											<i class="icon-envelope"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-edu">Educational:</label>
+
+									<div class="controls">
+										<select id="form-edu" class="span2">
+											<option value="1" />College
+											<option value="2" />Bachelor
+											<option value="3" />Master
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-join">Join Date:</label>
+
+									<div class="controls">
+										<input class="span2 date-picker" id="form-join" type="text" data-date-format="yyyy-mm-dd" />
+										<span class="add-on">
+											<i class="icon-calendar"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-position">Position:</label>
+
+									<div class="controls">
+										<select id="form-position" class="span3">
+											<option value="2" />Project Manager
+											<option value="4" />Maintenance Manager
+											<option value="5" />Developer
+											<option value="6" />DBA
+											<option value="1" />VP
+											<option value="0" />CEO
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-dept">Department:</label>
+
+									<div class="controls">
+										<select id="form-dept" class="span2">
+											<option value="M">NSA++</option>
+											<option value="F">Pricing</option>
+											<option value="F">Off-Site</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-begin-years">Begin Work Year:</label>
+										<div class="controls">
+											<input class="span2 date-picker" id="form-begin-years" type="text" data-date-format="yyyy-mm-dd" data-date-viewmode="years"/>
+											<span class="add-on">
+												<i class="icon-calendar"></i>
+											</span>
+										</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-address">Local Address:</label>
+
+									<div class="controls">
+										<input type="text" id="form-address" class="span6" placeholder="省/市/县/街道/小区/门牌号"/>
+										<span class="add-on">
+											<i class="icon-map-marker"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-home">Hometown:</label>
+
+									<div class="controls">
+										<input type="text" id="form-home" class="input-small" placeholder="省/市"/>
+										<span class="add-on">
+											<i class="icon-home"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-home-address">Hometown Address:</label>
+
+									<div class="controls">
+										<input type="text" id="form-home-address" class="span6" placeholder="省/市/县/街道/小区/门牌号"/>
+										<span class="add-on">
+											<i class="icon-map-marker"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-status">Status:</label>
+
+									<div class="controls">
+										<select id="form-status" class="span2">
+											<option value="1" />在职
+											<option value="2" />试用期
+											<option value="3" />离职
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-emc-person">Emergency Person:</label>
+
+									<div class="controls">
+										<input type="text" id="form-emc-person" class="span2" />
+										<span class="add-on">
+											<i class="icon-user"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="form-emc-phone">Emergency Phone:</label>
+
+									<div class="controls">
+										<input type="text" id="form-emc-phone" class="span2" />
+										<span class="add-on">
+											<i class="icon-phone"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="form-actions">
+									<button class="btn btn-info" type="submit">
+										<i class="icon-ok bigger-110"></i>
+										Submit
+									</button>
+									&nbsp; &nbsp; &nbsp;
+									<button class="btn" type="reset">
+										<i class="icon-undo bigger-110"></i>
+										Reset
+									</button>
+								</div>
+							
+							</form>
+						<!--PAGE CONTENT end-->
+						</div>
+					</div>
+				</div>
+				<!-- main end -->
+			</div>
+{% end %}

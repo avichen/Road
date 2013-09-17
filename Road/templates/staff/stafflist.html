@@ -1,0 +1,162 @@
+{% extends "../base.html" %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% block body %}
+		<div class="main-content">
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="icon-home home-icon"></i>
+							<a href="#">Home</a>
+
+							<span class="divider">
+								<i class="icon-angle-right arrow-icon"></i>
+							</span>
+						</li>
+						<li>Management
+							<span class="divider">
+								<i class="icon-angle-right arrow-icon"></i>
+							</span>
+						</li>
+						<li class="active">Staff Management</li>
+					</ul><!--.breadcrumb-->
+				</div>
+				
+				<!-- main begin -->
+				<div class="page-content">
+				
+					<div class="page-header position-relative">
+						<div class=" inline no-margin">
+							<h1>
+								<b>Staff List</b>
+							</h1>
+						</div>
+						
+						<div data-toggle="buttons-radio" class="pull-right btn-group no-margin">
+							<button onclick="javascript:window.location.href='/staff/add/?m={{menu_code}}'" class="btn btn-default btn-middle">
+								<i class="icon-pencil bigger-110"></i>
+								Add
+							</button>
+						</div>
+					</div>
+					<!--/.page-header-->
+					<!--.page-alert-->
+					
+					<!-- div class="alert alert-block alert-success">
+						<button type="button" class="close" data-dismiss="alert">
+											<i class="icon-remove"></i>
+										</button>
+						<p>Action successfully.</p>
+					</div> -->
+
+					<!--/.page-alert-->
+					<div class="row-fluid">
+						<div class="span12">
+							<!--PAGE CONTENT BEGINS-->
+							
+							<div class="row-fluid">
+								<div class="span12">
+									<table id="sample-table-1" class="table table-striped table-bordered table-hover">
+										<thead>
+											<tr>
+												<th class="center">
+													<label>
+														<input type="checkbox" />
+														<span class="lbl"></span>
+													</label>
+												</th>
+												<th>Name</th>
+												<th>Age</th>
+												<th class="hidden-480">Department</th>
+												<th>Position</th>
+												<th>Join Date</th>
+												<th>Status</th>
+
+												<th>Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											{% for staff in staff_list%}
+											<tr>
+												<td class="center">
+													<label>
+														<input type="checkbox" />
+														<span class="lbl"></span>
+													</label>
+												</td>
+
+												<td>
+													<a href="#">{{staff['name']}}</a>
+												</td>
+												<td>{{staff['age']}}</td>
+												<td>
+												{% if staff['department'] == 1 %}
+												NSA++
+												{% elif staff['department'] == 2 %}
+												Pricing
+												{% elif staff['department'] == 3 %}
+												Off-Site
+												{% end %}
+												</td>
+												<td>
+												{% if staff['position'] == 3 %}
+												Project Manager
+												{% elif staff['position'] == 4 %}
+												Maintenance Manager
+												{% elif staff['position'] == 5 %}
+												Developer
+												{% elif staff['position'] == 6 %}
+												DBA
+												{% elif staff['position'] == 7 %}
+												Other
+												{% elif staff['position'] == 2 %}
+												VP
+												{% elif staff['position'] == 1 %}
+												CEO
+												{% end %}
+												</td>
+												<td>{{staff['join_date']}}</td>
+												<td>
+													<span class="label label-success">在职</span>
+												</td>
+
+												<td>
+												<div class="hidden-phone visible-desktop action-buttons">
+
+													<a class="green" href="#">
+														<i class="icon-pencil bigger-130"></i>
+													</a>
+													&nbsp;
+													<a id="del" class="red" onclick="del_confirm();" href="">
+														<i class="icon-trash bigger-130"></i>
+													</a>
+												</div>
+												</td>
+											</tr>
+											{% end %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+						<!--PAGE CONTENT end-->
+						</div>
+					</div>
+				</div>
+				<!-- main end -->
+			</div>
+
+
+
+
+{% end %}
+
+{% block script %}
+<script src="{{ static_url('js/bootbox.min.js') }}"></script>
+<script type="text/javascript">
+function del_confirm(){
+	bootbox.confirm("确定要删除记录吗?", function(result){
+		return result;
+	});
+	
+}
+</script>
+{% end %}

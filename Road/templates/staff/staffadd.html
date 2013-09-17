@@ -1,0 +1,376 @@
+{% extends "../base.html" %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% block body %}
+			<div class="main-content">
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="icon-home home-icon"></i>
+							<a href="#">Home</a>
+
+							<span class="divider">
+								<i class="icon-angle-right arrow-icon"></i>
+							</span>
+						</li>
+						<li>Management
+							<span class="divider">
+								<i class="icon-angle-right arrow-icon"></i>
+							</span>
+						</li>
+						<li class="active">Staff Management</li>
+					</ul><!--.breadcrumb-->
+				</div>
+				
+				<!-- main begin -->
+				<div class="page-content">
+					<div class="page-header position-relative">
+						<div class=" inline no-margin">
+							<h1>
+								<b>Staff Add</b>
+							</h1>
+						</div>
+						
+						<div data-toggle="buttons-radio" class="pull-right btn-group no-margin">
+							<button onclick="javascript:window.location.href='userlist.html'" class="btn btn-default btn-middle">
+								<i class="icon-hand-left bigger-110"></i>
+								Staff List
+							</button>
+						</div>
+					</div><!--/.page-header-->
+				
+					<div class="row-fluid">
+						<div class="offset1 span10">
+						<!--PAGE CONTENT BEGINS-->
+							<form id="staffadd" class="form-horizontal" method="post" action="/staff/add/?m={{menu_code}}">
+								<div class="control-group">
+									<label class="control-label" for="user_code">User Code:</label>
+									<div class="controls">
+										<select id="user_code" name="user_code" class="span2">
+											<option value="">请选择</option>
+											{% for user in user_list%}
+											<option value="{{user.id}}">{{user.user_code}}</option>
+											{% end %}
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="user_name">Name:</label>
+
+									<div class="controls">
+										<input type="text" id="user_name" name="user_name" class="input-small" style="font-weight:bolder; color:#000000"/>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="age">Age:</label>
+
+									<div class="controls">
+										<input type="text" id="age" name="age" class="span1" />
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="marriage">Marriage:</label>
+
+									<div class="controls">
+										<select id="marriage" name="marriage" class="span2">
+											<option value="U">Unmarried</option>
+											<option value="M">Married</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="edu">Educational:</label>
+
+									<div class="controls">
+										<select id="edu" name="edu" class="span2">
+											<option value="">请选择</option>
+											<option value="1">College</option>
+											<option value="2">Bachelor</option>
+											<option value="3">Master</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="join_date">Join Date:</label>
+
+									<div class="controls">
+										<input class="span2 date-picker" id="join_date" name="join_date" type="text" data-date-format="yyyy-mm-dd" />
+										<span class="add-on">
+											<i class="icon-calendar"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="position">Position:</label>
+
+									<div class="controls">
+										<select id="position" name="position" class="span3">
+											<option value="">请选择</option>
+											<option value="3">Project Manager</option>
+											<option value="4">Maintenance Manager</option>
+											<option value="5">Developer</option>
+											<option value="6">DBA</option>
+											<option value="7">Other</option>
+											<option value="2">VP</option>
+											<option value="1">CEO</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="dept">Department:</label>
+
+									<div class="controls">
+										<select id="dept" name="dept" class="span2">
+											<option value="1">NSA++</option>
+											<option value="2">Pricing</option>
+											<option value="3">Off-Site</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="begin_year">Begin Work Year:</label>
+										<div class="controls">
+											<input class="span2 date-picker" id="begin_year" name="begin_year" type="text" data-date-format="yyyy-mm-dd" data-date-viewmode="years"/>
+											<span class="add-on">
+												<i class="icon-calendar"></i>
+											</span>
+										</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="loc_address">Local Address:</label>
+
+									<div class="controls">
+										<input type="text" id="loc_address" name="loc_address" class="span6" placeholder="省/市/县/街道/小区/门牌号"/>
+										<span class="add-on">
+											<i class="icon-map-marker"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="home_town">Hometown:</label>
+
+									<div class="controls">
+										<input type="text" id="home_town" name="home_town" class="input-small" placeholder="省/市"/>
+										<span class="add-on">
+											<i class="icon-home"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="home_address">Hometown Address:</label>
+
+									<div class="controls">
+										<input type="text" id="home_address" name="home_address" class="span6" placeholder="省/市/县/街道/小区/门牌号"/>
+										<span class="add-on">
+											<i class="icon-map-marker"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="status">Status:</label>
+
+									<div class="controls">
+										<select id="status" name="status" class="span2">
+											<option value="1">在职</option>
+											<option value="2">试用期</option>
+											<option value="3">离职</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="emc_person">Emergency Person:</label>
+
+									<div class="controls">
+										<input type="text" id="emc_person" name="emc_person" class="span2" />
+										<span class="add-on">
+											<i class="icon-user"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="emc_phone">Emergency Phone:</label>
+
+									<div class="controls">
+										<input type="text" id="emc_phone" name="emc_phone" class="span2" />
+										<span class="add-on">
+											<i class="icon-phone"></i>
+										</span>
+									</div>
+								</div>
+								
+								<div class="form-actions">
+									<button class="btn btn-info" type="submit">
+										<i class="icon-ok bigger-110"></i>
+										Submit
+									</button>
+									&nbsp; &nbsp; &nbsp;
+									<button class="btn" type="reset">
+										<i class="icon-undo bigger-110"></i>
+										Reset
+									</button>
+								</div>
+							
+							</form>
+						<!--PAGE CONTENT end-->
+						</div>
+					</div>
+				</div>
+				<!-- main end -->
+			</div>
+{% end %}
+
+{% block script %}
+		
+<script src="{{ static_url('js/jquery.validate.min.js') }}"></script>
+<script src="{{ static_url('js/date-time/bootstrap-datepicker.js') }}"></script>
+
+		
+<script type="text/javascript">
+
+
+	$().ready(function(){
+		$("#staffadd").validate({
+			errorElement: 'span',
+			errorClass: 'help-inline',
+			focusInvalid: false,
+			debug:true,
+			rules: {
+				user_code:{
+					required:true
+				},
+				user_name:{
+					required: true,
+					minlength: 2,
+					maxlength: 5
+				},
+				age:{
+					required: true,
+					minlength: 2,
+					maxlength: 2
+				},
+				edu:{
+					required: true
+				},
+				join_date:{
+					required: true
+				},
+				position:{
+					required: true
+				},
+				dept:{
+					required: true
+				},
+				begin_year:{
+					required: true
+				},
+				loc_address:{
+					required: true
+				},
+				home_town:{
+					required: true
+				},
+				home_address:{
+					required: true
+				},
+				status:{
+					required: true
+				},
+				emc_person:{
+					required: true
+				},
+				emc_phone:{
+					required: true
+				}
+				
+			},
+			
+			messages: {
+				user_code:{
+					required: "请选择用户名"
+				},
+				user_name:{
+					required: "请输入您的名字",
+					minlength: "用户名长度大于等于2位"
+				},
+				age:{
+					required: "请输入年龄"
+				},
+				edu: {
+					required: "请选择"
+				},
+				join_date:{
+					required: "请输入入职的日期"
+				},
+				position:{
+					required: "请选择职位"
+				},
+				dept:{
+					required: "请选择部门"
+				},
+				begin_year:{
+					required: "请输入年份"
+				},
+				loc_address:{
+					required: "请输入地址"
+				},
+				home_town:{
+					required: "请输入家乡"
+				},
+				home_address:{
+					required: "请输入地址"
+				},
+				status:{
+					required: "请选择状态"
+				},
+				emc_person:{
+					required: "请输入紧急联系人姓名"
+				},
+				emc_phone:{
+					required: "请输入紧急联系人电话"
+				}
+				
+			},
+			
+			highlight: function (e) {
+				$(e).closest('.control-group').removeClass('info').addClass('error');
+			},
+			
+			success: function (e) {
+				$(e).closest('.control-group').removeClass('error').addClass('info');
+				$(e).remove();
+			},
+			
+			submitHandler: function (form) {
+				form.submit();
+			}
+		});
+		
+		$("#user_code").change(function(){
+			alert($(this).val());
+		});
+		
+	});
+</script>
+<script type="text/javascript">
+	$(function() {
+		$(".date-picker").datepicker().next().on(ace.click_event, function(){
+			$(this).prev().focus();
+		});
+		
+	});
+</script>
+
+{% end %}

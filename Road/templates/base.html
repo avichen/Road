@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>{{ handler.settings["site_name"] }}</title>
+<link href="{{ static_url('css/bootstrap.min.css') }}" rel="stylesheet" />
+<link href="{{ static_url('css/bootstrap-responsive.min.css') }}" rel="stylesheet" />
+<link rel="stylesheet" href="{{ static_url('css/font-awesome.min.css') }}" />
+
+<!--ace styles-->
+
+<link rel="stylesheet" href="{{ static_url('css/ace.min.css') }}" />
+<link rel="stylesheet" href="{{ static_url('css/ace-responsive.min.css') }}" />
+<link rel="stylesheet" href="{{ static_url('css/ace-skins.min.css') }}" />
+<link rel="stylesheet" href="{{ static_url('css/datepicker.css') }}" />
+<!--fonts-->
+
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="{{ static_url('css/ace-ie.min.css') }}" />
+<![endif]-->
+</head>
+<body>
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a href="#" class="brand"> <small> <i class="icon-lemon"></i>
+						{{ handler.settings["site_name"] }} Administrator<!-- button id="AjaxGet">使用执行</button -->
+				</small>
+				</a>
+				<!--/.brand-->
+
+				<ul class="nav ace-nav pull-right">
+					<li class="purple">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="icon-bell-alt icon-animated-bell"></i>
+								<span class="badge badge-important">8</span>
+							</a>
+
+							<ul class="pull-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-closer">
+								<li class="nav-header">
+									<i class="icon-warning-sign"></i>
+									8 Notifications
+								</li>
+
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover btn-pink icon-comment"></i>
+												New Comments
+											</span>
+											<span class="pull-right badge badge-info">+12</span>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="btn btn-mini btn-primary icon-user"></i>
+										Bob just signed up as an editor ...
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover btn-success icon-shopping-cart"></i>
+												New Orders
+											</span>
+											<span class="pull-right badge badge-success">+8</span>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover btn-info icon-twitter"></i>
+												Followers
+											</span>
+											<span class="pull-right badge badge-info">+11</span>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										See all notifications
+										<i class="icon-arrow-right"></i>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+					<li class="light-blue"><a data-toggle="dropdown" href="#"
+						class="dropdown-toggle"> <img class="nav-user-photo"
+							src="{{ static_url('avatars/user.jpg') }}" alt="Jason's Photo" /><span
+							class="user-info"> <small>欢迎,</small>{{current_user.user_code}}
+						</span> <i class="icon-caret-down"></i>
+					</a>
+
+						<ul
+							class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-closer">
+							<li><a href="#"> <i class="icon-cog"></i> Settings
+							</a></li>
+
+							<li><a href="#"> <i class="icon-user"></i> Profile
+							</a></li>
+
+							<li class="divider"></li>
+
+							<li><a href="#"> <i class="icon-off"></i> Logout
+							</a></li>
+						</ul></li>
+				</ul>
+				<!--/.ace-nav-->
+			</div>
+			<!--/.container-fluid-->
+		</div>
+		<!--/.navbar-inner-->
+	</div>
+
+	<div class="main-container container-fluid">
+			<a class="menu-toggler" id="menu-toggler" href="#">
+				<span class="menu-text"></span>
+			</a>
+			<div class="sidebar" id="sidebar">
+				
+
+				
+			</div><!-- sidebar end -->
+			{% block body %}
+			{% end %}
+	</div>
+
+
+
+
+
+		<!--basic scripts-->
+
+		<!--[if !IE]>-->
+
+		<script src="http://libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+
+		<!--<![endif]-->
+
+		<!--[if IE]>
+			<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+		<![endif]-->
+
+		<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='{{ static_url("js/jquery-2.0.3.min.js") }}'>"+"<"+"/script>");
+		</script>
+
+		<!--<![endif]-->
+
+		<!--[if IE]>
+		<script type="text/javascript">
+ 			window.jQuery || document.write("<script src='{{ static_url('js/jquery-1.10.2.min.js') }}'>"+"<"+"/script>");
+		</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='{{ static_url("js/jquery.mobile.custom.min.js") }}'>"+"<"+"/script>");
+		</script>
+		<script src="{{ static_url('js/bootstrap.min.js') }}"></script>
+		
+		<script type="text/javascript">
+		$(document).ready(function(){
+			var menus = "";
+			//alert("data");
+			$.getJSON("/menu/all", function(data){
+					//$("#sidebar").html("");
+					//alert(data);
+					var menu_code = "";
+					var len = data.length-1
+					var sub = 0;
+					var active_code = {{menu_code}};
+					var parent_code = {{menu_code[0:1]+"00"}};
+
+					//alert(open_code)
+					//alert(menu_code);
+					var strhtml = "";
+						strhtml += "<ul class=\"nav nav-list\"><li id=\"000\"><a href=\"/index/?m=000\"><i class=\"icon-dashboard\"></i><span class=\"menu-text\"> Dashboard </span></a></li>";
+					$.each(data, function(i,item){
+						menu_parent = item["menu_parent"];
+						if(menu_parent == "0" && i==0){
+							
+							//alert("--1--"+item["menu_name_eng"]);
+							strhtml += "<li id=\""+item["menu_code"]+"\"><a href=\"#\" class=\"dropdown-toggle\"><i class=\""+item["icon_flag"]+"\"></i><span class=\"menu-text\">"+item["menu_name_eng"]+"</span>";//</a></li>
+							menu_code = item["menu_code"];
+							sub = 0;
+						}else if(menu_parent != "0" && menu_parent==menu_code && i != len){
+							//alert("--2--"+item["menu_name_eng"]);
+							if(sub < 1){
+								strhtml += "<b class=\"arrow icon-angle-down\"></b></a><ul class=\"submenu\"><li id=\""+item["menu_code"]+"\"><a href=\""+item["menu_url"]+"/?m="+item["menu_code"]+"\"><i class=\"icon-double-angle-right\"></i>"+item["menu_name_eng"]+"</a></li>";
+							}else{
+								strhtml += "<li id=\""+item["menu_code"]+"\"><a href=\""+item["menu_url"]+"/?m="+item["menu_code"]+"\"><i class=\"icon-double-angle-right\"></i>"+item["menu_name_eng"]+"</a></li>";
+							}
+							
+							sub ++;
+						}else if(menu_parent == "0" && i>0 && i != len){
+							//alert("--3--"+item["menu_name_eng"]);
+							strhtml += "</ul></li><li id=\""+item["menu_code"]+"\"><a href=\"#\" class=\"dropdown-toggle\"><i class=\""+item["icon_flag"]+"\"></i><span class=\"menu-text\">"+item["menu_name_eng"]+"</span>";
+							menu_code = item["menu_code"];
+							sub = 0;
+						}else if(menu_parent != "0" && menu_parent==menu_code && i == len){
+							//alert(i+"|"+len);
+							//alert("--4--"+item["menu_name_eng"]);
+							strhtml += "<li id=\""+item["menu_code"]+"\"><a href=\""+item["menu_url"]+"\"><i class=\"icon-double-angle-right\"></i>"+item["menu_name_eng"]+"</a></li></ul></li>";
+							sub ++;
+						}
+						
+						//strhtml += "<li><a href=\"#\"><i class=\""+item["icon_flag"]+"\"></i><span class=\"menu-text\">"+item["menu_name_eng"]+"</span></a></li>"
+						
+						//strhtml += "<ul class=\"submenu\"><li><a href=\"+item["menu_url"]+\"><i class=\"icon-double-angle-right\"></i>"+item["menu_name_eng"]+"</a></li>"
+						
+						
+					});
+					strhtml += "</ul><div class=\"sidebar-collapse\" id=\"sidebar-collapse\"><i class=\"icon-double-angle-left\"></i></div>"
+					//document.write(strhtml);
+					$("#sidebar").append(strhtml);
+					$("li[id='"+parent_code+"']").addClass("active open");
+					$("li[id='"+active_code+"']").addClass("active");
+					
+					$("body").append("<script src=\"\/static\/js\/ace-elements.min.js\"><\/script>");
+					$("body").append("<script src=\"\/static\/js\/ace.min.js\"><\/script>");
+					
+			});
+				
+
+			
+		});
+		
+		
+		</script>
+		
+		{% block script %}
+		{% end %}
+</body>
+</html>
