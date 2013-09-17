@@ -7,33 +7,30 @@ Created on 2013/9/16
 from lib.logger import LOGGER
 from Base import *
 import time
+from json import _default_encoder
 
-# class MessageCreateHandler(BaseHandler):
-#     def post(self, send_id, message_title, message_text, type, status):
-#         current_time = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
-#         strSql = "insert into message_text (send_id, message_title, message_text, type, post_time, status) values('"+send_id+"', '"+message_title+"', '"+message_text+"', '"+type+"', '"+current_time+"', '"+status+"')"
-#         last_rowid = self.db.execute_lastrowid(strSql)
-#         if not last_rowid:
-#             raise tornado.web.HTTPError(404)
-#             return None
-#         LOGGER.debug(last_rowid)
-#         self.re
-        
-        
-#         strSql = "insert into message_log (rcv_id, message_id, status, log_time) values()"
+class messageUserUnreadHandler(BaseHandler):
+    def get(self):
+        user_info = self.get_current_user()
+        id = 41
+        strSql = "select id, send_id, rcv_id, message_title, message_txt, type, date_format(post_time, '%%Y %%m %%d %%H:%%i:%%s') post_time, status from message_info where rcv_id = "+bytes(id)+" and TO_DAYS(now()) - TO_DAYS(post_time) <= 30 and status = 0"
+        message_info = self.db.query(strSql)
+        LOGGER.debug(message_info)
+        if message_info:
+            self.write(tornado.escape.json_encode(message_info))
+        return None
+    
+class messageUserUnreadCountHandler(BaseHandler):
+    def get(self):
+        user_info = self.get_current_user()
+        id = 41
+        strSql = "select count(*) count from message_info where rcv_id = "+bytes(id)+" and TO_DAYS(now()) - TO_DAYS(post_time) <= 30 and status = 0"
+        count = self.db.query(strSql)
+        LOGGER.debug(count)
+        if count:
+            self.write(tornado.escape.json_encode(count))
+        return None
 
 
-
-
-def create(db, send_id, rcv_id, message_title, message_txt, type, status):
-    current_time = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
-    LOGGER.debug("------------------"+str(current_time))
-    strSql = "insert into massage_info (send_id, rcv_id, message_title, message_txt, type, post_time, status) values(%s, %s, '%s', '%s', %s, '%s', %s)" % (send_id,rcv_id,message_title,message_txt,type,current_time,status)
-    LOGGER.debug(strSql)
-    last_rowid = db.execute_lastrowid(strSql)
-    if not last_rowid:
-        return "KO"
-    LOGGER.debug(last_rowid)
-    return "OK"
         
         

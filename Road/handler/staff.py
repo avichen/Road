@@ -7,6 +7,7 @@ Created on 2013年9月11日
 from lib.logger import LOGGER
 from Base import *
 from Tix import Select
+from test.test_iterlen import len
 
 class StaffListHandler(BaseHandler):
     @tornado.web.authenticated
@@ -14,9 +15,10 @@ class StaffListHandler(BaseHandler):
         menu_code = self.get_argument("m")
         strSql = "select * from staff_info order by id desc"
         staff_list = self.db.query(strSql)
-        if not staff_list:
-            raise tornado.web.HTTPError(404)
-            return None
+
+#         if staff_list:
+#             raise tornado.web.HTTPError(404)
+#             return None
         self.render("staff/stafflist.html", staff_list = staff_list, menu_code = menu_code)
         
 class StaffAddHandler(BaseHandler):

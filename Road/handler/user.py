@@ -6,8 +6,8 @@ Created on 2013/09/04
 '''
 
 from lib.logger import LOGGER
+import lib.message
 from Base import *
-import message
 
 
 class UserListHandler(BaseHandler):
@@ -39,7 +39,7 @@ class UserAddHandler(BaseHandler):
         strSql = "insert into user_info(user_code, pass_word, gender, email, phone, type, status) values('"+user_code+"', md5('"+password+"'), '"+gender+"', '"+email+"', '"+phone+"', "+type+", "+status+")"
 #         LOGGER.debug(strSql)
         last_rowid = db.execute_lastrowid(strSql)
-        status = message.create(db = db, send_id = 0, rcv_id = last_rowid, message_title = u'请填写您的个人信息', message_txt = u'请填写您的个人信息!!!', type = 1, status = 0)
+        status = lib.message.create(db = db, send_id = 0, rcv_id = last_rowid, message_title = u'请填写您的个人信息', message_txt = u'请填写您的个人信息!!!', type = 1, status = 0)
         if status == "KO":
             raise tornado.web.HTTPError(404)
             return None

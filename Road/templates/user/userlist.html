@@ -131,11 +131,22 @@
 {% block script %}
 <script src="{{ static_url('js/bootbox.min.js') }}"></script>
 <script type="text/javascript">
-function del_confirm(){
-	bootbox.confirm("确定要删除记录吗?", function(result){
-		return result;
+/* function del_confirm(){
+	bootbox.confirm("确定要删除记录吗?", "No", "Yes", function(result){
+		alert(result);
 	});
 	
-}
+} */
+$(function(){
+	$("a#del").click(function(e){
+		e.preventDefault();
+		var location = $(this).attr('href');
+		bootbox.confirm("确定要删除记录吗?", function(result){
+			if(result){
+				window.location.replace(location);
+			}
+		});
+	});
+});
 </script>
 {% end %}

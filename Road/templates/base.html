@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="{{ static_url('css/ace.min.css') }}" />
 <link rel="stylesheet" href="{{ static_url('css/ace-responsive.min.css') }}" />
 <link rel="stylesheet" href="{{ static_url('css/ace-skins.min.css') }}" />
-<link rel="stylesheet" href="{{ static_url('css/datepicker.css') }}" />
 <!--fonts-->
 
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
@@ -34,64 +33,11 @@
 					<li class="purple">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="icon-bell-alt icon-animated-bell"></i>
-								<span class="badge badge-important">8</span>
+								<span id="unreadcount" class="badge badge-important"></span>
 							</a>
 
-							<ul class="pull-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-closer">
-								<li class="nav-header">
-									<i class="icon-warning-sign"></i>
-									8 Notifications
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">
-												<i class="btn btn-mini no-hover btn-pink icon-comment"></i>
-												New Comments
-											</span>
-											<span class="pull-right badge badge-info">+12</span>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="btn btn-mini btn-primary icon-user"></i>
-										Bob just signed up as an editor ...
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">
-												<i class="btn btn-mini no-hover btn-success icon-shopping-cart"></i>
-												New Orders
-											</span>
-											<span class="pull-right badge badge-success">+8</span>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<div class="clearfix">
-											<span class="pull-left">
-												<i class="btn btn-mini no-hover btn-info icon-twitter"></i>
-												Followers
-											</span>
-											<span class="pull-right badge badge-info">+11</span>
-										</div>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										See all notifications
-										<i class="icon-arrow-right"></i>
-									</a>
-								</li>
+							<ul id="Notifications" class="pull-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-closer">
+								
 							</ul>
 						</li>
 
@@ -175,6 +121,33 @@
 		$(document).ready(function(){
 			var menus = "";
 			//alert("data");
+				
+			$.getJSON("/message/unread/title", function(data){
+				var strhtml = "";
+				if(data==null){
+					strhtml += "<li><a href=\"#\">You have no message !</a></li>"
+				}else{
+					//strhtml = "<li><a href=\"#\"><i class=\"btn btn-mini btn-primary icon-user\"></i>Message</a></li>"
+					$.each(data, function(i, item){
+						strhtml += "<li><a href=\"#\"><i class=\"btn btn-mini btn-primary icon-user\"></i>"+item["message_title"]+"</a></li>"
+					});
+				}
+				strhtml += "<li><a href=\"#\">See all notifications<i class=\"icon-arrow-right\"></i></a></li>"
+				$("#Notifications").append(strhtml);
+			});
+			
+			$.getJSON("/message/unread/count", function(data){
+				
+				var strhtml = "";
+				if(data==null){
+					
+				}else{
+					strhtml = data[0]["count"];
+				}
+				
+				$("#unreadcount").append(strhtml);
+			});
+			
 			$.getJSON("/menu/all", function(data){
 					//$("#sidebar").html("");
 					//alert(data);
@@ -233,8 +206,6 @@
 					$("body").append("<script src=\"\/static\/js\/ace.min.js\"><\/script>");
 					
 			});
-				
-
 			
 		});
 		

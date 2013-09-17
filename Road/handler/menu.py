@@ -17,7 +17,7 @@ class MenuHandler(BaseHandler):
         
         menu_list = self.db.query("select b.* from group_menu a left join menus b on a.menu_code=b.menu_code where a.group_code = '"+bytes(user_info['type'])+"' order by b.menu_code", )
 #         LOGGER.info(user_info['type'])
-        if not menu_list: raise tornado.web.HTTPError(404)
+        if not menu_list: return None
         self.db.close()
         self.write(tornado.escape.json_encode(menu_list))
         self.finish()
