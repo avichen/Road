@@ -24,8 +24,9 @@ class StaffListHandler(BaseHandler):
 class StaffAddHandler(BaseHandler):
     def get(self):
         menu_code = self.get_argument("m")
-        strSql = "select * from user_info a left join staff_info b on a.id=b.user_id where b.user_id is null and a.type=1 order by a.id desc"
+        strSql = "select a.id,a.user_code from user_info a left join staff_info b on a.id=b.user_id where b.user_id is null and a.type=1 order by a.id desc"
         user_list = self.db.query(strSql)
+        LOGGER.debug(user_list)
         self.db.close()
         if not user_list: 
             raise tornado.web.HTTPError(404)
