@@ -15,12 +15,12 @@ import tornado.web
 from tornado.options import define, options
 from lib.logger import LOGGER
 import torndb
-from handler import index, user, menu, staff, message
+from handler import index, user, menu, staff, message, vacation
 
 
 define("port", default=8888, help="run on the given port", type=int)
-define("mysql_host", default="11.11.11.15:3306", help="database host")
-# define("mysql_host", default="192.168.1.9:3306", help="database host")
+# define("mysql_host", default="11.11.11.15:3306", help="database host")
+define("mysql_host", default="192.168.169.4:3306", help="database host")
 define("mysql_database", default="Catch", help="database name")
 define("mysql_user", default="root", help="database user")
 define("mysql_password", default="jiangyin", help="database password")
@@ -38,7 +38,8 @@ class Application(tornado.web.Application):
                     (r"/user/add/", user.UserAddHandler),
                     (r"/user/del/([0-9]+)/", user.UserDelHandler),
                     (r"/staff/list/", staff.StaffListHandler),
-                    (r"/staff/add/", staff.StaffAddHandler)
+                    (r"/staff/add/", staff.StaffAddHandler),
+                    (r"/vocation/mylist/", vocation.MyVacationListHandler)
                     
                 ]
 

@@ -6,8 +6,6 @@ Created on 2013年9月11日
 '''
 from lib.logger import LOGGER
 from Base import *
-from Tix import Select
-from test.test_iterlen import len
 
 class StaffListHandler(BaseHandler):
     @tornado.web.authenticated

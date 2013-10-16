@@ -6,8 +6,9 @@
 <link href="{{ static_url('css/bootstrap.min.css') }}" rel="stylesheet" />
 <link href="{{ static_url('css/bootstrap-responsive.min.css') }}" rel="stylesheet" />
 <link rel="stylesheet" href="{{ static_url('css/font-awesome.min.css') }}" />
-<link rel="stylesheet" href="{{ static_url('css/datepicker.css') }}" />
 
+<link rel="stylesheet" href="{{ static_url('css/datepicker.css') }}" />
+<link rel="stylesheet" href="{{ static_url('css/fullcalendar.css') }}" />
 <!--ace styles-->
 
 <link rel="stylesheet" href="{{ static_url('css/ace.min.css') }}" />
@@ -125,6 +126,7 @@
 				
 			$.getJSON("/message/unread/title", function(data){
 				var strhtml = "";
+				alert(data)
 				if(data==null){
 					strhtml += "<li><a href=\"#\">You have no message !</a></li>"
 				}else{
@@ -187,7 +189,7 @@
 						}else if(menu_parent != "0" && menu_parent==menu_code && i == len){
 							//alert(i+"|"+len);
 							//alert("--4--"+item["menu_name_eng"]);
-							strhtml += "<li id=\""+item["menu_code"]+"\"><a href=\""+item["menu_url"]+"\"><i class=\"icon-double-angle-right\"></i>"+item["menu_name_eng"]+"</a></li></ul></li>";
+							strhtml += "<li id=\""+item["menu_code"]+"\"><a href=\""+item["menu_url"]+"/?m="+item["menu_code"]+"\"><i class=\"icon-double-angle-right\"></i>"+item["menu_name_eng"]+"</a></li></ul></li>";
 							sub ++;
 						}
 						
