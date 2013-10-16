@@ -1,0 +1,66 @@
+{% extends "../base.html" %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+{% block body %}
+		<div class="main-content">
+				<div class="breadcrumbs" id="breadcrumbs">
+					<ul class="breadcrumb">
+						<li>
+							<i class="icon-home home-icon"></i>
+							<a href="#">Home</a>
+
+							<span class="divider">
+								<i class="icon-angle-right arrow-icon"></i>
+							</span>
+						</li>
+						<li>Vacation
+							<span class="divider">
+								<i class="icon-angle-right arrow-icon"></i>
+							</span>
+						</li>
+						<li class="active">My Vacation</li>
+					</ul><!--.breadcrumb-->
+				</div>
+				
+				<!-- main begin -->
+				<div class="page-content">
+				
+
+				<!--/.page-header-->
+
+					<div class="row-fluid">
+						<div class="span12">
+							<!--PAGE CONTENT BEGINS-->
+							
+							<div class="row-fluid">
+								<div class="span9">
+									<div class="space"></div>
+
+									<div id="calendar"></div>
+								</div>
+								
+								<div class="span3">
+								
+								</div>
+							</div>
+						<!--PAGE CONTENT end-->
+						</div>
+					</div>
+				</div>
+				<!-- main end -->
+			</div>
+
+
+
+
+{% end %}
+
+{% block script %}
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+
+	});
+
+</script>
+{% end %}
