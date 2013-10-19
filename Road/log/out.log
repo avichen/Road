@@ -5206,3 +5206,766 @@ LINE 51: 2013-09-05 10:53:14 *INFO* -- Application....
 2013-09-17 15:04:06 *DEBUG* : [{'count': 1L}]
 2013-09-17 15:04:18 *DEBUG* : [{'status': 0L, 'post_time': u'2013 09 17 11:06:15', 'message_txt': u'\u8bf7\u586b\u5199\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f!!!', 'rcv_id': 41L, 'send_id': 0L, 'message_title': u'\u8bf7\u586b\u5199\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f', 'type': 1L, 'id': 1L}]
 2013-09-17 15:04:18 *DEBUG* : [{'count': 1L}]
+2013-09-18 14:23:33 *INFO* : Start....
+2013-09-18 14:23:44 *DEBUG* : [{'status': 0L, 'post_time': u'2013 09 17 11:06:15', 'message_txt': u'\u8bf7\u586b\u5199\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f!!!', 'rcv_id': 41L, 'send_id': 0L, 'message_title': u'\u8bf7\u586b\u5199\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f', 'type': 1L, 'id': 1L}]
+2013-09-18 14:23:44 *DEBUG* : [{'count': 1L}]
+2013-09-18 14:34:02 *DEBUG* : [{'status': 0L, 'post_time': u'2013 09 17 11:06:15', 'message_txt': u'\u8bf7\u586b\u5199\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f!!!', 'rcv_id': 41L, 'send_id': 0L, 'message_title': u'\u8bf7\u586b\u5199\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f', 'type': 1L, 'id': 1L}]
+2013-09-18 14:34:02 *DEBUG* : [{'count': 1L}]
+2013-09-18 14:34:04 *DEBUG* : [{'status': 0L, 'post_time': u'2013 09 17 11:06:15', 'message_txt': u'\u8bf7\u586b\u5199\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f!!!', 'rcv_id': 41L, 'send_id': 0L, 'message_title': u'\u8bf7\u586b\u5199\u60a8\u7684\u4e2a\u4eba\u4fe1\u606f', 'type': 1L, 'id': 1L}]
+2013-09-18 14:34:04 *DEBUG* : [{'count': 1L}]
+2013-09-18 14:39:03 *INFO* : Start....
+2013-09-18 14:39:16 *INFO* : Start....
+2013-09-18 14:46:16 *DEBUG* : insert into staff_info(user_id, name, age, marriage, educational, join_date, position, department, begin_work_year, local_address, home_town, home_address, status, emergency_person, emergency_phone) values('None', '陈少伟', '33', 'M', '2', '2005-08-15', '2', '3', '2003-02-03', '金沙江路2299弄44号403', '江阴', '江阴南园新村34号', '1', 'XXX', '13813800000')
+2013-09-18 14:47:10 *INFO* : Start....
+2013-09-18 14:47:18 *DEBUG* : [{'create_date': None, 'home_town': None, 'home_address': None, 'id': None, 'educational': None, 'user_id': None, 'create_by': None, 'last_modify_by': None, 'department': None, 'local_address': None, 'type': 1L, 'email': None, 'status': None, 'emergency_phone': None, 'phone': u'222222222', 'user_code': u'22222', 'emergency_person': None, 'last_modify_date': None, 'pass_word': u'e3ceb5881a0a1fdaad01296d7554868d', 'name': None, 'begin_work_year': None, 'gender': u'M', 'age': None, 'join_date': None, 'marriage': None, 'position': None}, {'create_date': None, 'home_town': None, 'home_address': None, 'id': None, 'educational': None, 'user_id': None, 'create_by': None, 'last_modify_by': None, 'department': None, 'local_address': None, 'type': 1L, 'email': None, 'status': None, 'emergency_phone': None, 'phone': u'44444444', 'user_code': u'44444', 'emergency_person': None, 'last_modify_date': None, 'pass_word': u'b857eed5c9405c1f2b98048aae506792', 'name': None, 'begin_work_year': None, 'gender': u'M', 'age': None, 'join_date': None, 'marriage': None, 'position': None}, {'create_date': None, 'home_town': None, 'home_address': None, 'id': None, 'educational': None, 'user_id': None, 'create_by': None, 'last_modify_by': None, 'department': None, 'local_address': None, 'type': 1L, 'email': None, 'status': None, 'emergency_phone': None, 'phone': u'3333333333', 'user_code': u'333333', 'emergency_person': None, 'last_modify_date': None, 'pass_word': u'd27d320c27c3033b7883347d8beca317', 'name': None, 'begin_work_year': None, 'gender': u'M', 'age': None, 'join_date': None, 'marriage': None, 'position': None}, {'create_date': None, 'home_town': None, 'home_address': None, 'id': None, 'educational': None, 'user_id': None, 'create_by': None, 'last_modify_by': None, 'department': None, 'local_address': None, 'type': 1L, 'email': None, 'status': None, 'emergency_phone': None, 'phone': u'12345678', 'user_code': u'admin', 'emergency_person': None, 'last_modify_date': None, 'pass_word': u'e10adc3949ba59abbe56e057f20f883e', 'name': None, 'begin_work_year': None, 'gender': u'M', 'age': None, 'join_date': None, 'marriage': None, 'position': None}]
+2013-09-18 14:47:40 *INFO* : Start....
+2013-09-18 14:47:46 *INFO* : Start....
+2013-09-18 14:48:25 *DEBUG* : [{'user_code': u'22222', 'id': 47L}, {'user_code': u'44444', 'id': 46L}, {'user_code': u'333333', 'id': 45L}, {'user_code': u'admin', 'id': 18L}]
+2013-09-18 14:49:16 *DEBUG* : insert into staff_info(user_id, name, age, marriage, educational, join_date, position, department, begin_work_year, local_address, home_town, home_address, status, emergency_person, emergency_phone) values('18', '陈少伟', '33', 'M', '2', '2013-09-10', '3', '3', '2013-09-04', '江宁路777号18B', '江阴', '江阴', '1', 'XXX', '1381380000')
+2013-09-18 14:49:16 *DEBUG* : 1
+2013-09-18 14:49:27 *DEBUG* : [{'user_code': u'22222', 'id': 47L}, {'user_code': u'44444', 'id': 46L}, {'user_code': u'333333', 'id': 45L}]
+2013-09-18 15:58:00 *INFO* : Start....
+2013-09-18 15:58:58 *INFO* : Start....
+2013-09-18 15:59:14 *INFO* : Start....
+2013-09-18 15:59:43 *INFO* : Start....
+2013-09-18 16:00:31 *INFO* : Start....
+2013-09-18 16:00:36 *INFO* : Start....
+2013-09-18 16:00:56 *INFO* : Start....
+2013-09-18 16:01:02 *INFO* : Start....
+2013-09-25 14:22:38 *INFO* : Start....
+2013-09-25 14:23:41 *INFO* : Start....
+2013-09-25 14:24:08 *INFO* : Start....
+2013-09-25 14:24:31 *DEBUG* : delete from user_info where id = 2
+2013-09-25 14:29:34 *INFO* : Start....
+2013-09-25 14:29:38 *INFO* : Start....
+2013-09-25 14:42:26 *INFO* : Start....
+2013-09-25 14:45:11 *INFO* : Start....
+2013-09-25 14:47:10 *INFO* : Start....
+2013-09-25 14:47:13 *DEBUG* : []
+2013-09-25 14:48:58 *DEBUG* : []
+2013-09-25 14:49:56 *DEBUG* : []
+2013-09-25 14:49:59 *DEBUG* : []
+2013-09-25 14:51:49 *DEBUG* : []
+2013-09-25 14:52:06 *DEBUG* : []
+2013-09-25 14:52:19 *DEBUG* : []
+2013-09-25 14:53:20 *DEBUG* : []
+2013-09-25 14:54:48 *DEBUG* : []
+2013-09-25 14:56:03 *DEBUG* : []
+2013-09-25 14:58:10 *DEBUG* : []
+2013-09-25 14:58:13 *DEBUG* : []
+2013-09-25 14:58:16 *DEBUG* : []
+2013-09-25 14:59:27 *DEBUG* : []
+2013-09-25 14:59:37 *DEBUG* : []
+2013-09-25 14:59:48 *DEBUG* : []
+2013-09-25 15:00:04 *DEBUG* : []
+2013-09-25 15:00:08 *DEBUG* : []
+2013-09-25 15:01:02 *DEBUG* : []
+2013-09-25 15:01:15 *DEBUG* : []
+2013-09-25 15:03:34 *DEBUG* : []
+2013-09-25 15:03:40 *DEBUG* : []
+2013-09-25 15:03:46 *DEBUG* : []
+2013-09-25 15:03:54 *DEBUG* : []
+2013-09-25 15:04:01 *DEBUG* : []
+2013-09-25 15:04:08 *DEBUG* : []
+2013-09-25 15:04:32 *DEBUG* : []
+2013-09-25 15:04:40 *DEBUG* : []
+2013-09-25 15:04:48 *DEBUG* : []
+2013-09-25 15:06:54 *DEBUG* : []
+2013-09-25 15:07:05 *DEBUG* : []
+2013-09-25 15:07:18 *DEBUG* : []
+2013-09-25 15:20:00 *INFO* : Start....
+2013-09-25 15:21:55 *DEBUG* : []
+2013-09-25 15:22:23 *INFO* : Start....
+2013-09-25 15:24:35 *INFO* : Start....
+2013-09-25 15:24:43 *DEBUG* : []
+2013-09-25 15:27:06 *INFO* : Start....
+2013-09-25 15:27:13 *DEBUG* : []
+2013-09-25 15:27:33 *INFO* : Start....
+2013-09-25 15:27:38 *DEBUG* : []
+2013-09-25 15:28:03 *INFO* : Start....
+2013-09-25 15:28:26 *DEBUG* : []
+2013-09-25 15:28:45 *INFO* : Start....
+2013-09-25 15:29:02 *INFO* : Start....
+2013-09-25 15:29:11 *DEBUG* : []
+2013-09-25 15:29:45 *INFO* : Start....
+2013-09-25 15:29:47 *INFO* : Start....
+2013-09-25 15:29:53 *DEBUG* : []
+2013-09-25 15:29:53 *DEBUG* : 18
+2013-09-25 15:30:17 *INFO* : Start....
+2013-09-25 15:30:34 *DEBUG* : []
+2013-09-25 15:30:34 *DEBUG* : 18
+2013-09-25 15:30:41 *INFO* : Start....
+2013-09-25 15:30:50 *INFO* : Start....
+2013-09-25 15:31:07 *DEBUG* : []
+2013-09-25 15:31:07 *DEBUG* : <type 'long'>
+2013-09-25 15:31:57 *INFO* : Start....
+2013-09-25 15:32:16 *INFO* : Start....
+2013-09-25 15:32:20 *INFO* : Start....
+2013-09-25 15:32:35 *DEBUG* : []
+2013-09-25 15:32:35 *DEBUG* : <type 'str'>
+2013-09-25 15:32:51 *INFO* : Start....
+2013-09-25 15:33:00 *INFO* : Start....
+2013-09-25 15:33:22 *INFO* : Start....
+2013-09-25 15:33:27 *INFO* : Start....
+2013-09-25 15:33:38 *DEBUG* : []
+2013-09-25 15:59:41 *DEBUG* : []
+2013-09-25 15:59:57 *DEBUG* : []
+2013-09-25 16:00:04 *DEBUG* : []
+2013-09-25 16:00:30 *DEBUG* : []
+2013-09-25 16:00:43 *DEBUG* : []
+2013-09-25 16:03:28 *DEBUG* : []
+2013-09-25 16:14:55 *DEBUG* : []
+2013-09-25 16:17:40 *DEBUG* : []
+2013-09-25 16:19:05 *DEBUG* : []
+2013-10-15 21:52:45 *INFO* : Start....
+2013-10-15 21:53:36 *INFO* : Start....
+2013-10-15 21:53:48 *INFO* : Start....
+2013-10-15 21:53:57 *DEBUG* : []
+2013-10-15 21:54:29 *DEBUG* : []
+2013-10-15 21:58:44 *DEBUG* : []
+2013-10-15 22:00:16 *DEBUG* : []
+2013-10-15 23:01:16 *INFO* : Start....
+2013-10-15 23:01:28 *INFO* : Start....
+2013-10-15 23:01:32 *INFO* : Start....
+2013-10-15 23:02:38 *INFO* : Start....
+2013-10-15 23:02:51 *INFO* : Start....
+2013-10-15 23:03:19 *INFO* : Start....
+2013-10-15 23:03:21 *DEBUG* : {'status': 1L, 'create_date': None, 'gender': u'M', 'last_modify_by': None, 'email': u'a@a.com', 'phone': u'12345678', 'user_code': u'admin', 'create_by': None, 'last_modify_date': None, 'pass_word': u'e10adc3949ba59abbe56e057f20f883e', 'type': 1L, 'id': 18L}
+2013-10-15 23:03:45 *INFO* : Start....
+2013-10-15 23:03:50 *DEBUG* : 18
+2013-10-15 23:03:50 *DEBUG* : 18
+2013-10-15 23:04:00 *INFO* : Start....
+2013-10-15 23:04:01 *DEBUG* : 18
+2013-10-15 23:04:01 *DEBUG* : 18
+2013-10-15 23:04:01 *DEBUG* : 18
+2013-10-15 23:04:02 *DEBUG* : 18
+2013-10-15 23:04:12 *DEBUG* : 18
+2013-10-15 23:05:22 *INFO* : Start....
+2013-10-15 23:05:29 *INFO* : Start....
+2013-10-15 23:05:58 *INFO* : Start....
+2013-10-15 23:06:02 *DEBUG* : 18
+2013-10-15 23:06:02 *DEBUG* : [{'supervisor_sign': None, 'employee_id': 18L, 'manager_sign': None, 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'dept_code': None, 'est_hours': 48L, 'est_days': 2L, 'act_end': None, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'position': None, 'supervisor_datetime': None, 'manager_datetime': None, 'act_hours': None, 'id': 1L, 'act_begin': None}]
+2013-10-15 23:06:02 *DEBUG* : []
+2013-10-15 23:06:02 *DEBUG* : 18
+2013-10-15 23:06:02 *DEBUG* : [{'supervisor_sign': None, 'employee_id': 18L, 'manager_sign': None, 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'dept_code': None, 'est_hours': 48L, 'est_days': 2L, 'act_end': None, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'position': None, 'supervisor_datetime': None, 'manager_datetime': None, 'act_hours': None, 'id': 1L, 'act_begin': None}]
+2013-10-15 23:06:02 *DEBUG* : 18
+2013-10-15 23:06:02 *DEBUG* : [{'supervisor_sign': None, 'employee_id': 18L, 'manager_sign': None, 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'dept_code': None, 'est_hours': 48L, 'est_days': 2L, 'act_end': None, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'position': None, 'supervisor_datetime': None, 'manager_datetime': None, 'act_hours': None, 'id': 1L, 'act_begin': None}]
+2013-10-15 23:06:02 *DEBUG* : 18
+2013-10-15 23:06:02 *DEBUG* : [{'supervisor_sign': None, 'employee_id': 18L, 'manager_sign': None, 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'dept_code': None, 'est_hours': 48L, 'est_days': 2L, 'act_end': None, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'position': None, 'supervisor_datetime': None, 'manager_datetime': None, 'act_hours': None, 'id': 1L, 'act_begin': None}]
+2013-10-15 23:06:04 *DEBUG* : []
+2013-10-15 23:07:57 *INFO* : Start....
+2013-10-15 23:08:07 *INFO* : Start....
+2013-10-15 23:08:12 *DEBUG* : 18
+2013-10-15 23:08:13 *DEBUG* : 18
+2013-10-15 23:08:13 *DEBUG* : 18
+2013-10-15 23:08:13 *DEBUG* : 18
+2013-10-15 23:08:28 *INFO* : Start....
+2013-10-15 23:08:32 *INFO* : Start....
+2013-10-15 23:08:44 *DEBUG* : 18
+2013-10-15 23:08:45 *DEBUG* : 18
+2013-10-15 23:08:45 *DEBUG* : 18
+2013-10-15 23:09:02 *DEBUG* : 18
+2013-10-15 23:09:03 *DEBUG* : 18
+2013-10-15 23:09:03 *DEBUG* : 18
+2013-10-15 23:09:03 *DEBUG* : 18
+2013-10-15 23:09:03 *DEBUG* : 18
+2013-10-15 23:09:26 *INFO* : Start....
+2013-10-15 23:09:28 *DEBUG* : 18
+2013-10-15 23:09:28 *DEBUG* : 18
+2013-10-15 23:09:28 *DEBUG* : 18
+2013-10-15 23:10:11 *INFO* : Start....
+2013-10-15 23:10:35 *DEBUG* : 18
+2013-10-15 23:10:35 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:10:35 *DEBUG* : 18
+2013-10-15 23:10:35 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:10:35 *DEBUG* : 18
+2013-10-15 23:10:35 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:10:35 *DEBUG* : 18
+2013-10-15 23:10:35 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:10:36 *DEBUG* : 18
+2013-10-15 23:10:36 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:10:36 *DEBUG* : 18
+2013-10-15 23:10:36 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:10:37 *DEBUG* : []
+2013-10-15 23:10:55 *INFO* : Start....
+2013-10-15 23:12:47 *INFO* : Start....
+2013-10-15 23:12:50 *DEBUG* : 18
+2013-10-15 23:12:50 *DEBUG* : [{'est_end': u'Y m d H:i:s', 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:12:50 *DEBUG* : 18
+2013-10-15 23:12:50 *DEBUG* : [{'est_end': u'Y m d H:i:s', 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:12:50 *DEBUG* : 18
+2013-10-15 23:12:50 *DEBUG* : [{'est_end': u'Y m d H:i:s', 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:12:50 *DEBUG* : 18
+2013-10-15 23:12:50 *DEBUG* : [{'est_end': u'Y m d H:i:s', 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:12:50 *DEBUG* : 18
+2013-10-15 23:12:50 *DEBUG* : [{'est_end': u'Y m d H:i:s', 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:12:50 *DEBUG* : 18
+2013-10-15 23:12:50 *DEBUG* : [{'est_end': u'Y m d H:i:s', 'est_begin': datetime.datetime(2013, 10, 16, 22, 57, 27), 'est_hours': 48L, 'est_days': 2L}]
+2013-10-15 23:12:52 *DEBUG* : []
+2013-10-15 23:14:40 *INFO* : Start....
+2013-10-15 23:24:15 *INFO* : Start....
+2013-10-15 23:24:21 *DEBUG* : 18
+2013-10-15 23:24:21 *DEBUG* : 18
+2013-10-15 23:24:21 *DEBUG* : 18
+2013-10-15 23:24:21 *DEBUG* : 18
+2013-10-15 23:24:21 *DEBUG* : 18
+2013-10-15 23:24:22 *DEBUG* : 18
+2013-10-15 23:24:36 *INFO* : Start....
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-15 23:32:20 *DEBUG* : 18
+2013-10-16 00:08:43 *INFO* : Start....
+2013-10-16 00:09:05 *INFO* : Start....
+2013-10-16 00:17:47 *INFO* : Start....
+2013-10-16 00:17:49 *DEBUG* : 18
+2013-10-16 00:17:49 *DEBUG* : 18
+2013-10-16 00:17:50 *DEBUG* : 18
+2013-10-16 00:17:50 *DEBUG* : 18
+2013-10-16 00:17:50 *DEBUG* : 18
+2013-10-16 00:17:50 *DEBUG* : 18
+2013-10-16 00:17:50 *DEBUG* : 18
+2013-10-16 00:18:17 *DEBUG* : 18
+2013-10-16 00:20:48 *INFO* : Start....
+2013-10-16 00:20:52 *DEBUG* : 18
+2013-10-16 00:20:52 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:20:52 *DEBUG* : 18
+2013-10-16 00:20:52 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:20:52 *DEBUG* : 18
+2013-10-16 00:20:52 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:20:53 *DEBUG* : 18
+2013-10-16 00:20:53 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:20:53 *DEBUG* : 18
+2013-10-16 00:20:53 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:21:28 *DEBUG* : 18
+2013-10-16 00:21:28 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:21:28 *DEBUG* : 18
+2013-10-16 00:21:28 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:21:29 *DEBUG* : 18
+2013-10-16 00:21:29 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:21:29 *DEBUG* : 18
+2013-10-16 00:21:29 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:21:52 *INFO* : Start....
+2013-10-16 00:21:53 *DEBUG* : 18
+2013-10-16 00:21:53 *DEBUG* : 18
+2013-10-16 00:21:53 *DEBUG* : 18
+2013-10-16 00:21:53 *DEBUG* : 18
+2013-10-16 00:21:53 *DEBUG* : 18
+2013-10-16 00:21:54 *DEBUG* : 18
+2013-10-16 00:21:54 *DEBUG* : 18
+2013-10-16 00:21:54 *DEBUG* : 18
+2013-10-16 00:21:54 *DEBUG* : 18
+2013-10-16 00:21:54 *DEBUG* : 18
+2013-10-16 00:22:07 *DEBUG* : 18
+2013-10-16 00:22:11 *INFO* : Start....
+2013-10-16 00:22:29 *DEBUG* : 18
+2013-10-16 00:22:29 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:22:29 *DEBUG* : 18
+2013-10-16 00:22:29 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:22:30 *DEBUG* : 18
+2013-10-16 00:22:30 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:22:30 *DEBUG* : 18
+2013-10-16 00:22:30 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:22:30 *DEBUG* : 18
+2013-10-16 00:22:30 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:22:30 *DEBUG* : 18
+2013-10-16 00:22:30 *DEBUG* : [{'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'est_days': 2L, 'begin_': 1L, 'est_hours': 48L, 'end_': 3L}]
+2013-10-16 00:22:31 *DEBUG* : []
+2013-10-16 00:22:54 *INFO* : Start....
+2013-10-16 00:23:23 *DEBUG* : 18
+2013-10-16 00:23:23 *DEBUG* : 18
+2013-10-16 00:23:24 *DEBUG* : 18
+2013-10-16 00:26:22 *INFO* : Start....
+2013-10-16 00:26:27 *DEBUG* : 18
+2013-10-16 00:26:27 *DEBUG* : [{'est_begin': u'2013 10 16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'end_': 3L}]
+2013-10-16 00:26:27 *DEBUG* : 18
+2013-10-16 00:26:27 *DEBUG* : [{'est_begin': u'2013 10 16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'end_': 3L}]
+2013-10-16 00:26:28 *DEBUG* : 18
+2013-10-16 00:26:28 *DEBUG* : [{'est_begin': u'2013 10 16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'end_': 3L}]
+2013-10-16 00:26:28 *DEBUG* : 18
+2013-10-16 00:26:28 *DEBUG* : [{'est_begin': u'2013 10 16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'end_': 3L}]
+2013-10-16 00:26:28 *DEBUG* : 18
+2013-10-16 00:26:28 *DEBUG* : [{'est_begin': u'2013 10 16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'end_': 3L}]
+2013-10-16 00:26:28 *DEBUG* : 18
+2013-10-16 00:26:28 *DEBUG* : [{'est_begin': u'2013 10 16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': datetime.datetime(2013, 10, 18, 22, 57, 32), 'end_': 3L}]
+2013-10-16 00:26:29 *DEBUG* : []
+2013-10-16 00:26:46 *INFO* : Start....
+2013-10-16 00:27:26 *INFO* : Start....
+2013-10-16 00:27:38 *INFO* : Start....
+2013-10-16 00:27:42 *DEBUG* : 18
+2013-10-16 00:27:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:27:42 *DEBUG* : 18
+2013-10-16 00:27:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:27:42 *DEBUG* : 18
+2013-10-16 00:27:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:27:42 *DEBUG* : 18
+2013-10-16 00:27:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:27:43 *DEBUG* : []
+2013-10-16 00:28:16 *INFO* : Start....
+2013-10-16 00:36:40 *INFO* : Start....
+2013-10-16 00:36:43 *INFO* : Start....
+2013-10-16 00:36:48 *INFO* : Start....
+2013-10-16 00:36:54 *INFO* : Start....
+2013-10-16 00:36:54 *DEBUG* : 18
+2013-10-16 00:36:54 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:37:21 *INFO* : Start....
+2013-10-16 00:37:23 *DEBUG* : 18
+2013-10-16 00:37:23 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:37:23 *DEBUG* : 18
+2013-10-16 00:37:23 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:37:23 *DEBUG* : 18
+2013-10-16 00:37:23 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:37:25 *DEBUG* : []
+2013-10-16 00:38:50 *INFO* : Start....
+2013-10-16 00:38:54 *DEBUG* : 18
+2013-10-16 00:38:54 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:38:54 *DEBUG* : 18
+2013-10-16 00:38:54 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:38:54 *DEBUG* : 18
+2013-10-16 00:38:54 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:38:55 *DEBUG* : 18
+2013-10-16 00:38:55 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:38:55 *DEBUG* : 18
+2013-10-16 00:38:55 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:38:55 *DEBUG* : 18
+2013-10-16 00:38:55 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:38:56 *DEBUG* : []
+2013-10-16 00:39:16 *DEBUG* : 18
+2013-10-16 00:39:16 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:39:17 *DEBUG* : 18
+2013-10-16 00:39:17 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:39:17 *DEBUG* : 18
+2013-10-16 00:39:17 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:39:17 *DEBUG* : 18
+2013-10-16 00:39:17 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:39:18 *DEBUG* : []
+2013-10-16 00:43:42 *DEBUG* : 18
+2013-10-16 00:43:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:43:42 *DEBUG* : 18
+2013-10-16 00:43:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:43:42 *DEBUG* : 18
+2013-10-16 00:43:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:43:42 *DEBUG* : 18
+2013-10-16 00:43:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:43:42 *DEBUG* : 18
+2013-10-16 00:43:42 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:10 *DEBUG* : 18
+2013-10-16 00:44:10 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:10 *DEBUG* : 18
+2013-10-16 00:44:10 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:10 *DEBUG* : 18
+2013-10-16 00:44:10 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:10 *DEBUG* : 18
+2013-10-16 00:44:10 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:11 *DEBUG* : 18
+2013-10-16 00:44:11 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:11 *DEBUG* : 18
+2013-10-16 00:44:11 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:11 *DEBUG* : 18
+2013-10-16 00:44:11 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:11 *DEBUG* : 18
+2013-10-16 00:44:11 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:12 *DEBUG* : 18
+2013-10-16 00:44:12 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:12 *DEBUG* : 18
+2013-10-16 00:44:12 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:12 *DEBUG* : 18
+2013-10-16 00:44:12 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:12 *DEBUG* : 18
+2013-10-16 00:44:12 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:44:12 *DEBUG* : 18
+2013-10-16 00:44:12 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:45:19 *INFO* : Start....
+2013-10-16 00:45:19 *DEBUG* : 18
+2013-10-16 00:45:19 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:45:52 *DEBUG* : 18
+2013-10-16 00:45:52 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:45:53 *DEBUG* : 18
+2013-10-16 00:45:53 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:45:53 *DEBUG* : 18
+2013-10-16 00:45:53 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:45:53 *DEBUG* : 18
+2013-10-16 00:45:53 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:45:53 *DEBUG* : 18
+2013-10-16 00:45:53 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:27 *DEBUG* : 18
+2013-10-16 00:46:27 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:27 *DEBUG* : 18
+2013-10-16 00:46:27 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:27 *DEBUG* : 18
+2013-10-16 00:46:27 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:27 *DEBUG* : 18
+2013-10-16 00:46:27 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:28 *DEBUG* : 18
+2013-10-16 00:46:28 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:50 *DEBUG* : 18
+2013-10-16 00:46:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:50 *DEBUG* : 18
+2013-10-16 00:46:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:50 *DEBUG* : 18
+2013-10-16 00:46:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:50 *DEBUG* : 18
+2013-10-16 00:46:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:46:50 *DEBUG* : 18
+2013-10-16 00:46:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:32 *DEBUG* : 18
+2013-10-16 00:48:32 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:32 *DEBUG* : 18
+2013-10-16 00:48:32 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:32 *DEBUG* : 18
+2013-10-16 00:48:32 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:33 *DEBUG* : 18
+2013-10-16 00:48:33 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:33 *DEBUG* : 18
+2013-10-16 00:48:33 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:33 *DEBUG* : 18
+2013-10-16 00:48:33 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:33 *DEBUG* : 18
+2013-10-16 00:48:33 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:47 *DEBUG* : 18
+2013-10-16 00:48:47 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:47 *DEBUG* : 18
+2013-10-16 00:48:47 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:47 *DEBUG* : 18
+2013-10-16 00:48:47 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:47 *DEBUG* : 18
+2013-10-16 00:48:47 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:47 *DEBUG* : 18
+2013-10-16 00:48:47 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:48:48 *DEBUG* : 18
+2013-10-16 00:48:48 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:59:20 *DEBUG* : 18
+2013-10-16 00:59:20 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:59:20 *DEBUG* : 18
+2013-10-16 00:59:20 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:59:49 *DEBUG* : 18
+2013-10-16 00:59:49 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:59:50 *DEBUG* : 18
+2013-10-16 00:59:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:59:50 *DEBUG* : 18
+2013-10-16 00:59:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:59:50 *DEBUG* : 18
+2013-10-16 00:59:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 00:59:50 *DEBUG* : 18
+2013-10-16 00:59:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:00:55 *DEBUG* : 18
+2013-10-16 01:00:55 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:00:55 *DEBUG* : 18
+2013-10-16 01:00:55 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:00:55 *DEBUG* : 18
+2013-10-16 01:00:55 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:00:55 *DEBUG* : 18
+2013-10-16 01:00:55 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:00:56 *DEBUG* : 18
+2013-10-16 01:00:56 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:00:56 *DEBUG* : 18
+2013-10-16 01:00:56 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:01:15 *DEBUG* : 18
+2013-10-16 01:01:15 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:01:16 *DEBUG* : 18
+2013-10-16 01:01:16 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:01:17 *DEBUG* : 18
+2013-10-16 01:01:17 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:01:17 *DEBUG* : 18
+2013-10-16 01:01:17 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:01:17 *DEBUG* : 18
+2013-10-16 01:01:17 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': 1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': 3L}]
+2013-10-16 01:01:18 *DEBUG* : []
+2013-10-16 01:02:43 *INFO* : Start....
+2013-10-16 01:02:50 *DEBUG* : 18
+2013-10-16 01:02:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:50 *DEBUG* : 18
+2013-10-16 01:02:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:50 *DEBUG* : 18
+2013-10-16 01:02:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:50 *DEBUG* : 18
+2013-10-16 01:02:50 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:50 *DEBUG* : 18
+2013-10-16 01:02:51 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:51 *DEBUG* : 18
+2013-10-16 01:02:51 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:51 *DEBUG* : 18
+2013-10-16 01:02:51 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:51 *DEBUG* : 18
+2013-10-16 01:02:51 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:51 *DEBUG* : 18
+2013-10-16 01:02:51 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:51 *DEBUG* : 18
+2013-10-16 01:02:51 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:02:52 *DEBUG* : []
+2013-10-16 01:03:19 *DEBUG* : 18
+2013-10-16 01:03:19 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:03:19 *DEBUG* : 18
+2013-10-16 01:03:19 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:03:19 *DEBUG* : 18
+2013-10-16 01:03:19 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:03:19 *DEBUG* : 18
+2013-10-16 01:03:19 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:03:19 *DEBUG* : 18
+2013-10-16 01:03:19 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:03:20 *DEBUG* : 18
+2013-10-16 01:03:20 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:03:20 *DEBUG* : 18
+2013-10-16 01:03:20 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:03:20 *DEBUG* : 18
+2013-10-16 01:03:20 *DEBUG* : [{'est_begin': u'2013-10-16 22:57:27', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18 22:57:32', 'end_': -3L}]
+2013-10-16 01:03:21 *DEBUG* : []
+2013-10-16 01:05:24 *INFO* : Start....
+2013-10-16 01:06:22 *DEBUG* : 18
+2013-10-16 01:06:22 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:06:22 *DEBUG* : 18
+2013-10-16 01:06:22 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:06:22 *DEBUG* : 18
+2013-10-16 01:06:22 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:06:22 *DEBUG* : 18
+2013-10-16 01:06:22 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:06:23 *DEBUG* : 18
+2013-10-16 01:06:23 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:06:24 *DEBUG* : []
+2013-10-16 01:08:09 *DEBUG* : 18
+2013-10-16 01:08:09 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:08:09 *DEBUG* : 18
+2013-10-16 01:08:09 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:08:09 *DEBUG* : 18
+2013-10-16 01:08:09 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:08:09 *DEBUG* : 18
+2013-10-16 01:08:09 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:08:10 *DEBUG* : 18
+2013-10-16 01:08:10 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:08:11 *DEBUG* : []
+2013-10-16 01:09:26 *DEBUG* : 18
+2013-10-16 01:09:26 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:09:26 *DEBUG* : 18
+2013-10-16 01:09:26 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:09:26 *DEBUG* : 18
+2013-10-16 01:09:26 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:09:26 *DEBUG* : 18
+2013-10-16 01:09:26 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:09:26 *DEBUG* : 18
+2013-10-16 01:09:26 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:09:26 *DEBUG* : 18
+2013-10-16 01:09:26 *DEBUG* : [{'est_begin': u'2013-10-16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013-10-18', 'end_': -3L}]
+2013-10-16 01:09:27 *DEBUG* : []
+2013-10-16 01:09:40 *INFO* : Start....
+2013-10-16 01:10:35 *DEBUG* : 18
+2013-10-16 01:10:35 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:10:35 *DEBUG* : 18
+2013-10-16 01:10:35 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:10:35 *DEBUG* : 18
+2013-10-16 01:10:35 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:10:35 *DEBUG* : 18
+2013-10-16 01:10:35 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:10:35 *DEBUG* : 18
+2013-10-16 01:10:35 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:10:35 *DEBUG* : 18
+2013-10-16 01:10:35 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:10:35 *DEBUG* : 18
+2013-10-16 01:10:35 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:10:36 *DEBUG* : []
+2013-10-16 01:13:07 *DEBUG* : 18
+2013-10-16 01:13:07 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:07 *DEBUG* : 18
+2013-10-16 01:13:07 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:07 *DEBUG* : 18
+2013-10-16 01:13:07 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:07 *DEBUG* : 18
+2013-10-16 01:13:07 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:08 *DEBUG* : 18
+2013-10-16 01:13:08 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:31 *DEBUG* : 18
+2013-10-16 01:13:31 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:32 *DEBUG* : 18
+2013-10-16 01:13:32 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:32 *DEBUG* : 18
+2013-10-16 01:13:32 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:32 *DEBUG* : 18
+2013-10-16 01:13:32 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:32 *DEBUG* : 18
+2013-10-16 01:13:32 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:32 *DEBUG* : 18
+2013-10-16 01:13:32 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:34 *DEBUG* : []
+2013-10-16 01:13:55 *DEBUG* : 18
+2013-10-16 01:13:55 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:55 *DEBUG* : 18
+2013-10-16 01:13:55 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:55 *DEBUG* : 18
+2013-10-16 01:13:55 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:56 *DEBUG* : 18
+2013-10-16 01:13:56 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:56 *DEBUG* : 18
+2013-10-16 01:13:56 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:56 *DEBUG* : 18
+2013-10-16 01:13:56 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:13:58 *DEBUG* : []
+2013-10-16 01:15:44 *DEBUG* : 18
+2013-10-16 01:15:44 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:44 *DEBUG* : 18
+2013-10-16 01:15:44 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:44 *DEBUG* : 18
+2013-10-16 01:15:44 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:44 *DEBUG* : 18
+2013-10-16 01:15:44 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:44 *DEBUG* : 18
+2013-10-16 01:15:44 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:45 *DEBUG* : []
+2013-10-16 01:15:53 *DEBUG* : 18
+2013-10-16 01:15:53 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:53 *DEBUG* : 18
+2013-10-16 01:15:53 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:54 *DEBUG* : 18
+2013-10-16 01:15:54 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:54 *DEBUG* : 18
+2013-10-16 01:15:54 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:54 *DEBUG* : 18
+2013-10-16 01:15:54 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:54 *DEBUG* : 18
+2013-10-16 01:15:54 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:54 *DEBUG* : 18
+2013-10-16 01:15:54 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:54 *DEBUG* : 18
+2013-10-16 01:15:54 *DEBUG* : [{'est_begin': u'2013,10,16', 'begin_': -1L, 'est_hours': 48L, 'est_days': 2L, 'est_end': u'2013,10,18', 'end_': -3L}]
+2013-10-16 01:15:55 *DEBUG* : []
+2013-10-16 01:16:20 *INFO* : Start....
+2013-10-16 01:16:27 *INFO* : Start....
+2013-10-16 01:16:28 *INFO* : Start....
+2013-10-16 01:16:34 *DEBUG* : 18
+2013-10-16 01:16:34 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:16:34 *DEBUG* : []
+2013-10-16 01:17:25 *DEBUG* : 18
+2013-10-16 01:17:25 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:17:25 *DEBUG* : 18
+2013-10-16 01:17:25 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:17:25 *DEBUG* : 18
+2013-10-16 01:17:25 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:17:25 *DEBUG* : 18
+2013-10-16 01:17:25 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:17:25 *DEBUG* : 18
+2013-10-16 01:17:25 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:17:25 *DEBUG* : []
+2013-10-16 01:18:45 *DEBUG* : 18
+2013-10-16 01:18:45 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:18:45 *DEBUG* : 18
+2013-10-16 01:18:45 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:18:45 *DEBUG* : 18
+2013-10-16 01:18:45 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:18:45 *DEBUG* : 18
+2013-10-16 01:18:45 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:18:45 *DEBUG* : 18
+2013-10-16 01:18:45 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:18:45 *DEBUG* : 18
+2013-10-16 01:18:45 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:18:45 *DEBUG* : 18
+2013-10-16 01:18:45 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:18:45 *DEBUG* : 18
+2013-10-16 01:18:45 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:18:46 *DEBUG* : []
+2013-10-16 01:19:36 *DEBUG* : 18
+2013-10-16 01:19:36 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:19:36 *DEBUG* : 18
+2013-10-16 01:19:36 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:19:36 *DEBUG* : 18
+2013-10-16 01:19:36 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:19:36 *DEBUG* : 18
+2013-10-16 01:19:36 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:19:36 *DEBUG* : 18
+2013-10-16 01:19:36 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:19:36 *DEBUG* : 18
+2013-10-16 01:19:36 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:19:37 *DEBUG* : []
+2013-10-16 01:35:37 *INFO* : Start....
+2013-10-16 01:35:38 *DEBUG* : 18
+2013-10-16 01:35:38 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:35:38 *DEBUG* : 18
+2013-10-16 01:35:38 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:35:38 *DEBUG* : 18
+2013-10-16 01:35:38 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:35:38 *DEBUG* : 18
+2013-10-16 01:35:38 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:35:41 *DEBUG* : []
+2013-10-16 01:36:42 *DEBUG* : 18
+2013-10-16 01:36:42 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:36:42 *DEBUG* : 18
+2013-10-16 01:36:42 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:36:42 *DEBUG* : 18
+2013-10-16 01:36:42 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:36:42 *DEBUG* : 18
+2013-10-16 01:36:42 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:36:42 *DEBUG* : 18
+2013-10-16 01:36:42 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:36:43 *DEBUG* : []
+2013-10-16 01:37:17 *DEBUG* : 18
+2013-10-16 01:37:17 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}]
+2013-10-16 01:37:17 *DEBUG* : []
+2013-10-16 01:39:49 *INFO* : Start....
+2013-10-16 01:39:51 *DEBUG* : 18
+2013-10-16 01:39:51 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:39:52 *DEBUG* : []
+2013-10-16 01:41:15 *INFO* : Start....
+2013-10-16 01:48:08 *INFO* : Start....
+2013-10-16 01:48:08 *DEBUG* : 18
+2013-10-16 01:48:08 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:09 *DEBUG* : 18
+2013-10-16 01:48:09 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:09 *DEBUG* : 18
+2013-10-16 01:48:09 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:09 *DEBUG* : 18
+2013-10-16 01:48:10 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:10 *DEBUG* : 18
+2013-10-16 01:48:10 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:10 *DEBUG* : 18
+2013-10-16 01:48:10 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:10 *DEBUG* : 18
+2013-10-16 01:48:10 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:10 *DEBUG* : 18
+2013-10-16 01:48:10 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:10 *DEBUG* : 18
+2013-10-16 01:48:10 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:11 *DEBUG* : 18
+2013-10-16 01:48:11 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:12 *DEBUG* : []
+2013-10-16 01:48:13 *DEBUG* : 18
+2013-10-16 01:48:13 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:14 *DEBUG* : []
+2013-10-16 01:48:14 *DEBUG* : 18
+2013-10-16 01:48:14 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:15 *DEBUG* : []
+2013-10-16 01:48:16 *DEBUG* : 18
+2013-10-16 01:48:16 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:16 *DEBUG* : []
+2013-10-16 01:48:17 *DEBUG* : 18
+2013-10-16 01:48:17 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:17 *DEBUG* : []
+2013-10-16 01:48:18 *DEBUG* : 18
+2013-10-16 01:48:18 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:18 *DEBUG* : []
+2013-10-16 01:48:19 *DEBUG* : 18
+2013-10-16 01:48:19 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:19 *DEBUG* : []
+2013-10-16 01:48:20 *DEBUG* : 18
+2013-10-16 01:48:20 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:48:20 *DEBUG* : []
+2013-10-16 01:49:40 *DEBUG* : 18
+2013-10-16 01:49:40 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:49:40 *DEBUG* : 18
+2013-10-16 01:49:40 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:49:40 *DEBUG* : 18
+2013-10-16 01:49:40 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:49:40 *DEBUG* : 18
+2013-10-16 01:49:40 *DEBUG* : [{'est_end': u'2013-10-18', 'est_begin': u'2013-10-16', 'est_hours': 48L, 'est_days': 2L}, {'est_end': u'2013-10-31', 'est_begin': u'2013-10-23', 'est_hours': 144L, 'est_days': 6L}]
+2013-10-16 01:49:41 *DEBUG* : []
+2013-10-16 01:50:32 *INFO* : Start....
+2013-10-16 19:59:16 *INFO* : Start....
+2013-10-16 19:59:35 *INFO* : Start....
+2013-10-16 20:01:53 *INFO* : Start....
+2013-10-16 20:02:00 *DEBUG* : []
+2013-10-16 20:03:36 *DEBUG* : []
+2013-10-16 20:03:53 *DEBUG* : [{'user_code': u'22222', 'id': 47L}, {'user_code': u'44444', 'id': 46L}, {'user_code': u'333333', 'id': 45L}]
